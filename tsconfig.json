@@ -11,12 +11,12 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
 
     "strict": true,
     "strictPropertyInitialization": false,
     "noImplicitThis": true,
     "noUnusedLocals": true,
-    "noImplicitReturns": true,
     "skipLibCheck": true
   },
   "include": [
