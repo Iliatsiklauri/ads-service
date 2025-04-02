@@ -11,6 +11,8 @@ export const dbConfig = {
   name: process.env.DATABASE_NAME,
 };
 
+//finished
+
 const dataSourceOptions: DataSourceOptions = {
   type: "postgres",
   host: dbConfig.host,
