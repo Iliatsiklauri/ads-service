@@ -9,7 +9,7 @@ import { authMiddleware } from "./middleware/AuthMiddleware";
 
 const adsRouter = express.Router();
 
-adsRouter.get("/", getAllAds);
+adsRouter.get("/", authMiddleware, getAllAds);
 adsRouter.get("/:id", getSingleAd);
 adsRouter.post("/", authMiddleware, createAd);
 adsRouter.delete("/:id", authMiddleware, deleteAd);

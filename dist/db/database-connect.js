@@ -14,6 +14,7 @@ exports.dbConfig = {
     password: process.env.DATABASE_PASSWORD,
     name: process.env.DATABASE_NAME,
 };
+//finished
 const dataSourceOptions = {
     type: "postgres",
     host: exports.dbConfig.host,
